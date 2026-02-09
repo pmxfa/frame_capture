@@ -116,7 +116,7 @@ class VideoFrameCapture:
         self.speed_dropdown = ttk.Combobox(
             first_row,
             textvariable=self.speed_var,
-            values=["0.25x", "0.5x", "0.75x", "1.0x", "1.5x", "2.0x", "3.0x", "4.0x"],
+            values=["0.25x", "0.5x", "0.75x", "1.0x", "1.5x", "2.0x", "3.0x", "4.0x", "6.0x","8.0x"],
             width=8,
             state="readonly"
         )
